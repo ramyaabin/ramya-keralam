@@ -25,7 +25,7 @@ jobs:
           ${{ runner.os }}-
 
     - name: update npm
-      run: npm i -g npm@latest
+      run:  sudo npm i -g npm@latest
       
     - name: Install Dependencies
       run: npm install
