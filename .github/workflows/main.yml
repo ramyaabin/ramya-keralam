@@ -24,6 +24,9 @@ jobs:
           ${{ runner.os }}-build-
           ${{ runner.os }}-
 
+    - name: update npm
+      run: npm i -g npm@latest
+      
     - name: Install Dependencies
       run: npm install
 
